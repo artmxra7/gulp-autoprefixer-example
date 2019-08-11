@@ -1,12 +1,13 @@
 const gulp = require ('gulp');
 const sass = require ('gulp-sass');
 const browserSync = require ('browser-sync').create();
+const autoprefixer = require ('gulp-autoprefixer');
 
 gulp.task("sass", function(){
-  return gulp.src("./resource/assets/sass/**/*.scss")
+  return gulp.src("./sass/**/*.scss")
   .pipe(sass())
   .pipe(autoprefixer())
-  .pipe(gulp.dest("./public/assets/css"))
+  .pipe(gulp.dest("./assets/css"))
 })
 
 gulp.task("serve", function(){
