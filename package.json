@@ -1,0 +1,24 @@
+{
+  "name": "gulp-autoprefixer-example",
+  "version": "1.0.0",
+  "description": "gulp example with autoprefixer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artmxra7/gulp-autoprefixer-example.git"
+  },
+  "author": "Erwin Rahayu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artmxra7/gulp-autoprefixer-example/issues"
+  },
+  "homepage": "https://github.com/artmxra7/gulp-autoprefixer-example#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}
